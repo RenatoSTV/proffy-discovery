@@ -9,7 +9,7 @@ function cloneField() {
     //Duplicar os camposde horários
     const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true)
 
-    //Limpar os campos clonados
+    //Limpar os campos clonados 
     const fields = newFieldContainer.querySelectorAll('input')
 
     // Para cada campo, limpar
